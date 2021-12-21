@@ -1,0 +1,45 @@
+Remote seems to properly implement singleton
+
+The new remote:
+Remote:
+slot 0 contains no command
+slot 1 contains no command
+slot 2 contains no command
+slot 3 contains no command
+slot 4 contains no command
+
+The initialized remote:
+Remote:
+slot 0 contains the Turnon command
+slot 1 contains the Turnoff command
+slot 2 contains the Turnup command
+slot 3 contains the Turndown command
+slot 4 contains no command
+
+Turning on the TV
+Volume turned up to 1
+Volume turned up to 2
+Volume turned up to 3
+Volume turned up to 4
+Volume turned up to 5
+Volume turned down to 4
+Volume turned down to 3
+Volume turned down to 2
+Volume turned down to 1
+Volume turned down to 0
+Turning off the TV
+Remote slot 4 does not have a command to execute
+Remote has slots 0..4, cannot execute a command in slot 5
+
+
+Remote slot 4 does not have a command
+Remote has slots 0..4, you've asked to remove a command from slot 5
+
+The remote after removing commands:
+Remote:
+slot 0 contains no command
+slot 1 contains no command
+slot 2 contains no command
+slot 3 contains no command
+slot 4 contains no command
+
